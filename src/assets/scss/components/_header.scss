@@ -1,6 +1,7 @@
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0 $p4;
   height: 4.5rem;
   border-bottom: 1px solid $light-gray;
@@ -30,6 +31,12 @@
     }
     &__tools {
       display: block;
+    }
+
+    .form__btn {
+      height: 30px;
+      padding: 5px 15px;
+      font-size: 0.8rem;
     }
   }
 }
