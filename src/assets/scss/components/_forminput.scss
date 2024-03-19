@@ -1,0 +1,27 @@
+.input {
+  position: relative;
+  display: flex;
+  width: 25.7rem;
+  height: 50px;
+  padding: 0 30px;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  color: $black-blue;
+  border: 1px solid rgba(141, 153, 174, 0.4);
+  background: rgba(237, 242, 244, 0.4);
+}
+
+.input::placeholder {
+  color: $gray;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media screen and (max-width: 375px) {
+  .input {
+    width: 100%;
+  }
+}
