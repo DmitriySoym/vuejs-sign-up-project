@@ -1,0 +1,45 @@
+.main {
+  flex: 1 1 auto;
+  background-color: $mono-light-blue;
+  background-image: url(../../../../src/assets/images/form-bg.png);
+  background-repeat: no-repeat;
+  background-position-x: 25%;
+  background-position-y: 50%;
+
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    padding: $p10 15% $p10 0;
+  }
+}
+.registrated {
+  padding: 0;
+}
+@media screen and (max-width: 1550px) {
+  .main {
+    background-position-x: 5%;
+    background-position-y: 50%;
+    &__row {
+      padding-right: 5%;
+    }
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .main {
+    background-image: none;
+    &__row {
+      padding-right: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main {
+    &__row {
+      padding: 0;
+    }
+  }
+}

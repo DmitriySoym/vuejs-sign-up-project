@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0 $p4;
+  height: 4.5rem;
+  border-bottom: 1px solid $light-gray;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(141, 153, 174, 0.2);
+
+  &__logo {
+    color: $black-blue;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+  }
+
+  &__tools {
+    display: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    background: inherit;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header {
+    &__logo {
+      display: none;
+    }
+    &__tools {
+      display: block;
+    }
+  }
+}

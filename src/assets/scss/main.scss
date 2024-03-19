@@ -1,3 +1,15 @@
-.wrapper {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Display:wght@400;700;900&family=Open+Sans:wght@700&display=swap");
+
+//global styles
+@import "./variables/variables";
+@import "./resetstyles/nullstyle";
+
+//components styles
+@import "./components/header";
+@import "./components//signupview";
+
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }

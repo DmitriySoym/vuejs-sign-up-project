@@ -1,13 +1,15 @@
-<script setup></script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">header</div>
-  </header>
-
+  <app-header />
   <RouterView />
 </template>
+
+<script>
+import AppHeader from "./components/Header/Header.vue";
+export default {
+  components: {
+    AppHeader,
+  },
+};
+</script>
 
 <style scoped></style>
