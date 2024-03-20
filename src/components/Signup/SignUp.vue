@@ -183,7 +183,7 @@ export default {
 
     signUp() {
       this.toggleAuth();
-      this.$router.push("/auth");
+      this.$router.push("/auth-done");
 
       this.form.login = "";
       this.form.email = "";
@@ -215,3 +215,4 @@ export default {
   },
 };
 </script>
+Store,import auth from "@/store/auth";import auth from "@/store/auth";
