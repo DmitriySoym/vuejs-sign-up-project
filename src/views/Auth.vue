@@ -6,6 +6,7 @@
         <use xlink:href="#done-icon"></use>
       </svg>
     </div>
+    <h2 class="done__title done__link"><router-link to="/">Перейти в личный кабинет</router-link></h2>
   </div>
   <svg style="height: 0; width: 0; position: absolute; visibility: hidden">
     <symbol id="done-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">

@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
-import SignUpForm from "@/components/SignUpForm/SignUpForm.vue";
+import SignUpPage from "@/views/SignUpView.vue";
 import AuthPage from "@/views/Auth.vue";
 import NotFound from "@/views/NotFound.vue";
-import HomePage from "@/views/HomeView.vue";
 import autsStatus from "@/store/store";
+import FriendsList from "@/views/FriendsListView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -11,26 +11,19 @@ const router = createRouter({
     {
       path: "/",
       name: "Home",
-      component: HomePage,
+      component: FriendsList,
       meta: {
         requireAuth: true,
       },
-      // children: [
-      //   {
-      //     path: "sign-up",
-      //     name: "Sig-up",
-      //     component: SignUpForm,
-      //   },
-      // ],
     },
     {
       path: "/sign-up",
       name: "Sig-up",
-      component: SignUpForm,
+      component: SignUpPage,
     },
     {
       path: "/auth-done",
-      name: "auth-done",
+      name: "Auth-done",
       component: AuthPage,
     },
     {
@@ -41,8 +34,6 @@ const router = createRouter({
 });
 
 router.beforeEach((to, from) => {
-  console.log(autsStatus.getters.authState);
-
   if (to.meta.requireAuth && !autsStatus.getters.authState) {
     return { name: "Sig-up" };
   }

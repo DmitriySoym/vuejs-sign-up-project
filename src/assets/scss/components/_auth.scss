@@ -30,4 +30,9 @@
     width: $p2;
     text-align: center;
   }
+  &__link {
+    margin-top: $p2;
+    color: $color-primary;
+    text-decoration: underline;
+  }
 }

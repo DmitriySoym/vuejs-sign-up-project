@@ -1,9 +1,11 @@
 import { createStore } from "vuex";
-import auth from "./auth/index";
+import auth from "./modules/auth";
+import friends from "./modules/friends";
 
 const store = createStore({
   modules: {
     auth,
+    friends,
   },
 });
 

@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import SignUp from "../Signup/SignUp.vue";
+import SignUp from "../components/Signup/SignUp.vue";
 import { mapGetters } from "vuex";
 
 export default {

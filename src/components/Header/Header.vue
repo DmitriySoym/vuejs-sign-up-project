@@ -24,7 +24,7 @@ export default {
 
     signeOf() {
       this.toggleAuth();
-      this.$router.push("/");
+      this.$router.push("/sign-up");
     },
   },
 };
