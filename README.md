@@ -3,11 +3,12 @@
 - В проекте реализована регистрация в приложении.
 - После ее прохождения доступен личный кабинет с просомтром имеющегося списка друзей, добвалением в него новых людей.
 - [Demo проекта](https://tangerine-snickerdoodle-02f994.netlify.app/)
+  <br />
+  <br />
 <div align="center">
      <a href="https://github.com/DmitriySoym/vuejs-sign-up-project">
       <img src="https://github.com/DmitriySoym/vuejs-sign-up-project/blob/main/src/assets/images/app-screen.png" style="width: 70%">
     </a>
-
      <a href="https://github.com/DmitriySoym/vuejs-sign-up-project">
       <img src="https://github.com/DmitriySoym/vuejs-sign-up-project/blob/main/src/assets/images/home-page-screen.png" style="width: 70%">
     </a>
