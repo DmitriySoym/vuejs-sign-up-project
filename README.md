@@ -1,14 +1,19 @@
 # vuejs-sign-up-project
 
-This template should help get you started developing with Vue 3 in Vite.
+В проекте реализована регистрация.
+После ее прохождения доступен личный кабинет с просомтром имеющегося списка друзей, добвалением в него новых людей.
+[Demo проекта](https://tangerine-snickerdoodle-02f994.netlify.app/)
 
-## Recommended IDE Setup
+<div>
+  <img src="https://github.com/DmitriySoym/vuejs-sign-up-project/blob/main/src/assets/images/app-screen.png" style="width: 48%">
+  <img src="https://github.com/DmitriySoym/vuejs-sign-up-project/blob/main/src/assets/images/home-page-screen.png" style="width: 48%">
+</div>
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Tools used:
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Vite.js / Vue.js
+- Vue Router / Vuex
+- Sass
 
 ## Project Setup
 

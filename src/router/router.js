@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import SignUpPage from "@/views/SignUpView.vue";
-import AuthPage from "@/views/Auth.vue";
-import NotFound from "@/views/NotFound.vue";
+import AuthPage from "@/views/AuthView.vue";
+import NotFound from "@/views/NotFoundView.vue";
 import autsStatus from "@/store/store";
 import FriendsList from "@/views/FriendsListView.vue";
 
