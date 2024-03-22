@@ -1,6 +1,6 @@
  <h3 align="center">Vue.Js sign-up project</h3>
 
-- [Demo проекта](https://tangerine-snickerdoodle-02f994.netlify.app/)
+- [Demo проекта](https://vue-reg-form.netlify.app/)
   <br />
   <br />
 <div align="center">
